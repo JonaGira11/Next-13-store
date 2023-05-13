@@ -1,3 +1,4 @@
+import Header from '@/components/Header'
 import './globals.css'
 
 
@@ -17,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
      
       <body>
-      <header> This is the header</header>
+      <Header/>
       {children}
       <footer>This our footer</footer>
       </body>
